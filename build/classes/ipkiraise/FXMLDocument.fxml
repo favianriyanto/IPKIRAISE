@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="696.0" prefWidth="1114.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ipkiraise.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="696.0" prefWidth="1114.0" style="-fx-background-color: black;">
+         <children>
+            <TextField fx:id="mk1" alignment="CENTER" layoutX="35.0" layoutY="50.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk2" alignment="CENTER" layoutX="35.0" layoutY="110.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk3" alignment="CENTER" layoutX="35.0" layoutY="170.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk4" alignment="CENTER" layoutX="35.0" layoutY="230.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk5" alignment="CENTER" layoutX="35.0" layoutY="290.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk6" alignment="CENTER" layoutX="35.0" layoutY="350.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk7" alignment="CENTER" layoutX="35.0" layoutY="410.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk8" alignment="CENTER" layoutX="35.0" layoutY="470.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk9" alignment="CENTER" layoutX="35.0" layoutY="531.0" prefHeight="25.0" prefWidth="255.0" />
+            <TextField fx:id="mk10" alignment="CENTER" layoutX="35.0" layoutY="590.0" prefHeight="25.0" prefWidth="255.0" />
+            <ChoiceBox fx:id="nilai1" layoutX="407.0" layoutY="50.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai3" layoutX="406.0" layoutY="170.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai4" layoutX="406.0" layoutY="230.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai5" layoutX="406.0" layoutY="290.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai6" layoutX="406.0" layoutY="350.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai7" layoutX="406.0" layoutY="410.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai8" layoutX="406.0" layoutY="470.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai9" layoutX="406.0" layoutY="530.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai10" layoutX="406.0" layoutY="590.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="nilai2" layoutX="406.0" layoutY="110.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks1" layoutX="318.0" layoutY="50.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks3" layoutX="317.0" layoutY="170.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks4" layoutX="317.0" layoutY="230.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks5" layoutX="317.0" layoutY="290.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks6" layoutX="317.0" layoutY="350.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks7" layoutX="317.0" layoutY="410.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks8" layoutX="317.0" layoutY="470.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks9" layoutX="317.0" layoutY="530.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks10" layoutX="317.0" layoutY="590.0" prefHeight="25.0" prefWidth="63.0" />
+            <ChoiceBox fx:id="sks2" layoutX="317.0" layoutY="110.0" prefHeight="25.0" prefWidth="63.0" />
+            <TextField fx:id="bobot1" alignment="CENTER" editable="false" layoutX="505.0" layoutY="50.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot2" alignment="CENTER" editable="false" layoutX="505.0" layoutY="110.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot3" alignment="CENTER" editable="false" layoutX="505.0" layoutY="170.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot4" alignment="CENTER" editable="false" layoutX="505.0" layoutY="230.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot5" alignment="CENTER" editable="false" layoutX="505.0" layoutY="290.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot6" alignment="CENTER" editable="false" layoutX="505.0" layoutY="350.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot7" alignment="CENTER" editable="false" layoutX="505.0" layoutY="410.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot8" alignment="CENTER" editable="false" layoutX="505.0" layoutY="470.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot9" alignment="CENTER" editable="false" layoutX="505.0" layoutY="530.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="bobot10" alignment="CENTER" editable="false" layoutX="505.0" layoutY="590.0" prefHeight="25.0" prefWidth="71.0" text="0" visible="false" />
+            <TextField fx:id="totalsks" alignment="CENTER" editable="false" layoutX="318.0" layoutY="643.0" prefHeight="25.0" prefWidth="100.0" visible="false" />
+            <TextField fx:id="totalnb" alignment="CENTER" editable="false" layoutX="595.0" layoutY="643.0" prefHeight="25.0" prefWidth="100.0" visible="false" />
+            <TextField fx:id="nb1" alignment="CENTER" editable="false" layoutX="617.0" layoutY="50.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb2" alignment="CENTER" editable="false" layoutX="617.0" layoutY="110.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb3" alignment="CENTER" editable="false" layoutX="617.0" layoutY="170.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb4" alignment="CENTER" editable="false" layoutX="617.0" layoutY="230.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb5" alignment="CENTER" editable="false" layoutX="617.0" layoutY="290.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb6" alignment="CENTER" editable="false" layoutX="617.0" layoutY="350.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb7" alignment="CENTER" editable="false" layoutX="617.0" layoutY="410.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb8" alignment="CENTER" editable="false" layoutX="617.0" layoutY="470.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb9" alignment="CENTER" editable="false" layoutX="617.0" layoutY="530.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <TextField fx:id="nb10" alignment="CENTER" editable="false" layoutX="617.0" layoutY="590.0" prefHeight="25.0" prefWidth="71.0" visible="false" />
+            <Label layoutX="35.0" layoutY="25.0" text="MATA KULIAH" textFill="WHITE" />
+            <Label layoutX="318.0" layoutY="25.0" text="SKS" textFill="WHITE" />
+            <Label layoutX="407.0" layoutY="25.0" text="NILAI" textFill="WHITE" />
+            <Label fx:id="label4" layoutX="505.0" layoutY="25.0" text="BOBOT" textFill="WHITE" visible="false" />
+            <Label fx:id="label5" layoutX="617.0" layoutY="25.0" text="N x B" textFill="WHITE" visible="false" />
+            <Label fx:id="label3" layoutX="803.0" layoutY="183.0" text="IP ANDA :" textFill="WHITE" visible="false">
+               <font>
+                  <Font size="49.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalip" layoutX="813.0" layoutY="287.0" text="Label" textFill="WHITE" visible="false">
+               <font>
+                  <Font size="83.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="54.0" text="1" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="234.0" text="4" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="294.0" text="5" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="354.0" text="6" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="414.0" text="7" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="474.0" text="8" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="534.0" text="9" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="594.0" text="10" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="174.0" text="3" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="114.0" text="2" textFill="WHITE" />
+            <Button layoutX="966.0" layoutY="44.0" mnemonicParsing="false" onAction="#hitung" prefHeight="37.0" prefWidth="113.0" text="HITUNG">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Lighting diffuseConstant="1.25" specularConstant="0.86" specularExponent="31.16" surfaceScale="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect></Button>
+            <Label fx:id="label1" layoutX="262.0" layoutY="647.0" text="Total SKS" textFill="WHITE" visible="false" />
+            <Label fx:id="label2" layoutX="525.0" layoutY="647.0" text="Total N x B" textFill="WHITE" visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+   <stylesheets>
+      <URL value="@JMetroBase.css" />
+      <URL value="@JMetroLightTheme.css" />
+   </stylesheets>
+</AnchorPane>
